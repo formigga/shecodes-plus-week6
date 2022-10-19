@@ -5,15 +5,15 @@ body {
 }
 
 .container {
-  background-color: rgba(237, 229, 241, 0.815);
-  margin: 30px auto;
-  border: 5px solid #779e92;
-  padding: 20px;
-  border-radius: 70px;
   max-width: 570px;
 }
 
 h1 {
+  background-color: rgba(235, 234, 235, 0.815);
+  margin: 30px auto;
+  border: 2px solid #779e92;
+  padding: 20px;
+  border-radius: 70px;
   text-align: center;
   display: block;
   color: #6a8d82;
