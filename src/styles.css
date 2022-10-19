@@ -12,18 +12,20 @@ h1 {
   background-color: rgba(235, 234, 235, 0.815);
   margin: 30px auto;
   border: 2px solid #779e92;
-  padding: 20px;
-  border-radius: 70px;
+  padding: 10px;
+  border-radius: 25px;
+  max-width: 400px;
   text-align: center;
   display: block;
   color: #6a8d82;
   font-family: "Major Mono Display", monospace;
   font-size: 50px;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 h2 {
   text-align: center;
+  margin-top: -10px;
   display: block;
   color: #779e92;
   font-family: "B612 Mono", monospace;
