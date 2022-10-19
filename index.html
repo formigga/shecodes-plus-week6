@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=B612+Mono&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <title>Patri's Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="city">Paris</h1>
+      <h2 id="date"></h2>
+      <br />
+
+      <h3>15ºC</h3>
+
+      <h4>08º/17º</h4>
+      <br />
+      <br />
+
+      <div class="row text-center">
+        <div class="col-3">
+          FRI
+          <br />
+          <br />
+          <img
+            class="friday-weather"
+            src="imgs/windy.svg"
+            alt="windy-weather"
+            width="110px"
+          />
+          <br />
+          <small>09º/13º</small>
+        </div>
+
+        <div class="col-3">
+          SAT
+          <br />
+          <br />
+          <img src="imgs/sunny.svg" alt="sunny-weather" width="110px" />
+          <br />
+          <small>14º/23º</small>
+        </div>
+
+        <div class="col-3">
+          SUN
+          <br />
+          <br />
+          <img src="imgs/rainy.svg" alt="rainy-weather" width="100px" />
+          <br />
+          <small>11º/16º</small>
+        </div>
+
+        <div class="col-3">
+          MON
+          <br />
+          <br />
+          <img src="imgs/cloudy.svg" alt="cloudy-weather" width="120px" />
+          <br />
+          <small>12º/15º</small>
+        </div>
+      </div>
+      <br />
+      <br />
+      <div class="row align-items-end">
+        <div class="col-10">
+          <label for="exampleDataList" class="search-form" id="search-form">
+          </label>
+          <input
+            class="form-control"
+            list="datalistOptions"
+            id="exampleDataList"
+            placeholder="Enter a city"
+          />
+          <datalist id="datalistOptions">
+            <option value="San Francisco"></option>
+            <option value="New York"></option>
+            <option value="Seattle"></option>
+            <option value="Los Angeles"></option>
+            <option value="Chicago"></option>
+          </datalist>
+        </div>
+        <div class="col-2">
+          <button
+            type="button"
+            id="searchButton"
+            class="btn btn-outline-warning"
+          >
+            Enter
+          </button>
+        </div>
+      </div>
+      <br />
+    </div>
+    <script src="src/script.js"></script>
+  </body>
+</html>
