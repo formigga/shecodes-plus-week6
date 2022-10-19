@@ -1,7 +1,7 @@
 body {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: medium;
-  background-color: #eff1f1;
+  background-color: rgb(38, 39, 39);
 }
 
 .container {
@@ -11,13 +11,13 @@ body {
 h1 {
   display: block;
   text-align: center;
-  background-color: rgba(235, 234, 235, 0.815);
+  background-color: rgb(38, 39, 39);
   margin: 30px auto;
-  border: 2px solid #779e92;
+  border: 2px solid #ffc109;
   padding: 10px;
   border-radius: 25px;
   max-width: 400px;
-  color: #6a8d82;
+  color: #ffc109;
   font-family: "Major Mono Display", monospace;
   font-size: 50px;
   text-decoration: none;
@@ -27,7 +27,7 @@ h2 {
   display: block;
   text-align: center;
   margin-top: -10px;
-  color: #779e92;
+  color: #ffc109;
   font-family: "B612 Mono", monospace;
   font-size: 17px;
 }
@@ -35,7 +35,7 @@ h2 {
 h3 {
   display: block;
   text-align: center;
-  color: #779e92;
+  color: #ffc109;
   font-family: "B612 Mono", monospace;
   font-size: 25px;
   margin-bottom: 0%;
@@ -44,7 +44,7 @@ h3 {
 h4 {
   display: block;
   text-align: center;
-  color: #8fb7aa;
+  color: #ffc109;
   font-family: "B612 Mono", monospace;
   font-size: 14px;
   margin-top: 0%;
@@ -53,8 +53,14 @@ h4 {
 .col {
   display: block;
   text-align: center;
-  color: #779e92;
+  color: #ffc109;
   font-weight: 600;
+}
+
+.col-3 {
+  display: block;
+  text-align: center;
+  color: #ffc109;
 }
 
 .link-warning {
